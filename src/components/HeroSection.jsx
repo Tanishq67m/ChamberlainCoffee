@@ -74,7 +74,7 @@ const HeroSection = () => {
 
         {/* Shop Now Button */}
         <motion.a
-          href="#shop"
+          href="/products"
           className="inline-block mt-8 px-8 py-4 text-lg font-bold bg-royal-blue text-white rounded-full shadow-lg hover:bg-blue-800 transition"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
