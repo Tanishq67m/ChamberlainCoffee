@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import EmmaImage from "../assets/Emma.avif";
 
 const AboutCreator = () => {
   const textVariants = {
@@ -23,8 +22,8 @@ const AboutCreator = () => {
           className="rounded-3xl overflow-hidden"
         >
           <img
-            src={EmmaImage}
-            alt="Emma"
+            src="https://res.cloudinary.com/dtlkwgwwo/image/upload/v1753466012/Emma_bmx97c.avif"
+            alt="Emma Chamberlain"
             className="w-full h-full object-cover"
           />
         </motion.div>

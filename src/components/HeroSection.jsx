@@ -3,9 +3,10 @@ import { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import BG1 from "../assets/Blue.jpg";
+
 
 gsap.registerPlugin(ScrollTrigger);
+const BG1 = "https://res.cloudinary.com/dtlkwgwwo/image/upload/v1753464822/Blue_jltyi3.jpg";
 
 const HeroSection = () => {
   const heroRef = useRef(null);

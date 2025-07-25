@@ -1,20 +1,38 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
-import beanVideo from "../assets/videos/bean.mp4";
-import powderVideo from "../assets/videos/powder.mp4";
-import waterVideo from "../assets/videos/water.mp4";
-import milkVideo from "../assets/videos/milk.mp4";
-import pourVideo from "../assets/videos/pour.mp4";
-import steamVideo from "../assets/videos/steam.mp4";
-
+// ✅ Cloudinary video URLs
 const steps = [
-  { title: "Fresh Beans", desc: "Premium beans handpicked for perfection.", video: beanVideo },
-  { title: "The Grind", desc: "Ground to ideal texture for rich flavor.", video: powderVideo },
-  { title: "The Pour", desc: "Adding hot water for perfect extraction.", video: waterVideo },
-  { title: "Creamy Indulgence", desc: "A splash of milk for velvet smoothness.", video: milkVideo },
-  { title: "Ready to Sip", desc: "Final pour into your favorite mug.", video: pourVideo },
-  { title: "Enjoy Aroma", desc: "Steam rising, flavors dancing.", video: steamVideo },
+  {
+    title: "Fresh Beans",
+    desc: "Premium beans handpicked for perfection.",
+    video: "https://res.cloudinary.com/dtlkwgwwo/video/upload/v1753465178/bean_xtvjgn.mp4"
+  },
+  {
+    title: "The Grind",
+    desc: "Ground to ideal texture for rich flavor.",
+    video: "https://res.cloudinary.com/dtlkwgwwo/video/upload/v1753465181/powder1_zdgpeo.mp4"
+  },
+  {
+    title: "The Pour",
+    desc: "Adding hot water for perfect extraction.",
+    video: "https://res.cloudinary.com/dtlkwgwwo/video/upload/v1753465120/water_uob6ea.mp4"
+  },
+  {
+    title: "Creamy Indulgence",
+    desc: "A splash of milk for velvet smoothness.",
+    video: "https://res.cloudinary.com/dtlkwgwwo/video/upload/v1753465159/milk1_jhuxpc.mp4"
+  },
+  {
+    title: "Ready to Sip",
+    desc: "Final pour into your favorite mug.",
+    video: "https://res.cloudinary.com/dtlkwgwwo/video/upload/v1753465159/milk1_jhuxpc.mp4" // (Check: same as milk)
+  },
+  {
+    title: "Enjoy Aroma",
+    desc: "Steam rising, flavors dancing.",
+    video: "https://res.cloudinary.com/dtlkwgwwo/video/upload/v1753465180/steam_jpwdk8.mp4"
+  }
 ];
 
 export default function CoffeeJourney() {
