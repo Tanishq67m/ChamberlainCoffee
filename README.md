@@ -27,39 +27,6 @@ A modern, responsive React + Vite project that meticulously replicates the desig
 
 ## 📂 Project Structure
 
-You're looking for the raw markdown code that you can directly copy and paste into a new README.md file on GitHub. Here it is:
-
-Markdown
-
-# ☕ Chamberlain Coffee Clone
-
-A modern, responsive React + Vite project that meticulously replicates the design and feel of Chamberlain Coffee. Built with powerful animation libraries like Framer Motion and GSAP, and seamlessly deployed on Vercel for an optimal user experience.
-
----
-
-## 🚀 Features
-
-* **React + Vite**: Enjoy blazing-fast development and optimized production builds.
-* **Framer Motion**: Delivers smooth, declarative animations for a polished UI.
-* **GSAP + ScrollTrigger**: Creates interactive and engaging scroll-triggered animations.
-* **Tailwind CSS**: Ensures a fully responsive design that looks great on any device.
-* **Cloudinary-hosted Assets**: Efficiently serves all images and media for fast loading times.
-* **Vercel Deployment**: Easy deployment with SPA-friendly routing for a seamless user journey.
-
----
-
-## 🛠️ Tech Stack
-
-**Frontend:** React (Vite)
-**Styling:** Tailwind CSS
-**Animations:** Framer Motion, GSAP
-**Deployment:** Vercel
-**Image Hosting:** Cloudinary
-
----
-
-## 📂 Project Structure
-
 project-root/
 ├── public/
 ├── src/
